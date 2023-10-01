@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import './Articles.css';
 import { Typography, Button, IconButton } from '@mui/material';

@@ -2,6 +2,7 @@ import './globals.css';
 import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 import Navbar from '../components/Navbar/index';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,10 +12,36 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>
+      <body className={`${inter.className} `}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
+  );
+}
+
+function Footer() {
+  const navText = ['About', 'Help', 'Terms', 'Privacy'];
+  return (
+    <div className='bg-black text-white font-bold flex  flex-col  px-3'>
+      <div className='flex gap-3 flex-col p-4'>
+        <Link href='/' className='flex items-center '>
+          <img
+            className='w-14 h-14 object-contain m-2 p-2 cursor-pointer filter brightness-100'
+            src='https://www.svgrepo.com/show/354057/medium-icon.svg'
+            alt='medium'
+          />
+          <h1 className='text-2xl font-serif font-thin'>Medium</h1>
+        </Link>
+        <div className='flex gap-4 ml-9'>
+          {navText.map((item, index) => (
+            <Link key={index} href={item} className=''>
+              {item}
+            </Link>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }
