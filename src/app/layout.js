@@ -1,7 +1,7 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar/index';
 
 export const metadata = {
   title: 'Create Next App',
