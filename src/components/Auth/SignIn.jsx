@@ -19,7 +19,7 @@ const loginOptions = [
 
 function LoginCard({ onLogin, onClose }) {
   return (
-    <div className=' bg-white fixed flex inset-0 items-center justify-center z-50'>
+    <div className=' bg-white fixed flex inset-0 items-center justify-center'>
       <div className='w-full md:w-8/12 lg:w-6/12 xl:w-6/12 gap-2 '>
         <div className='text-center relative'>
           <h2 className='text-2xl text-cyan-900 font-bold'>Welcome back</h2>
