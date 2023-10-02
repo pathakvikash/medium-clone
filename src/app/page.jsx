@@ -38,7 +38,7 @@ export default function Home() {
   );
 }
 
-export function CategorySection() {
+function CategorySection() {
   return (
     <>
       <div className='flex flex-col justify-center'>
@@ -87,7 +87,7 @@ export function CategorySection() {
   );
 }
 
-export const BlogSection = () => {
+const BlogSection = () => {
   const [articles, setArticles] = useState(trendingArticles);
   const [showMore, setShowMore] = useState(2);
 

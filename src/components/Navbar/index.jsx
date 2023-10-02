@@ -11,7 +11,7 @@ function Navbar() {
 
   const navText = authenticated
     ? ['Search', 'Write', 'Notifications', 'Account']
-    : ['Our story', 'Membership', 'Write', 'Sign in'];
+    : ['About', 'Membership', 'Write'];
 
   return (
     <div className='topbar gap-2 flex items-center justify-between h-[76px] border-b border-lightgray fixed w-full'>
@@ -58,15 +58,25 @@ function Navbar() {
         </Link>
       )}
 
-      <div className=' flex flex-grow-[0.3] items-center justify-evenly p-4 mx-4'>
-        {navText.map((item, index) => (
-          <p key={index} title='Home' placement='right-end'>
-            {item}
-          </p>
-        ))}
+      <div className=' flex  items-center justify-evenly p-4 '>
+        <div className='sm:hidden gap-3 hidden md:flex mr-3'>
+          {navText.map((item, index) => (
+            <Link
+              href={item.toLowerCase()}
+              key={index}
+              title='Home'
+              placement='right-end'
+            >
+              {item}
+            </Link>
+          ))}
+        </div>
         {!authenticated && (
-          <div className='bg-black text-white font-bold flex items-center rounded-full px-3'>
-            <Button color='inherit'>Get Started</Button>
+          <div className='flex items-center gap-3'>
+            <p className='hidden sm:flex md:flex'>Sign In</p>
+            <div className='bg-black text-white font-bold flex items-center rounded-full px-3'>
+              <Button color='inherit'>Get Started</Button>
+            </div>
           </div>
         )}
       </div>
