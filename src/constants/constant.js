@@ -61,7 +61,7 @@ export const trendingArticles = [
       'It never happens instantly. The business game is longer than you know. — It’s happening. OpenAI’s losing the AI race. Remember those days',
     bookmarked: false,
     image:
-      'https://miro.medium.com/v2/resize:fill:224:224/1*3FtLa-nHJB8KOb-Wu9bqbg.png',
+      'https://miro.medium.com/v2/resize:fill:400:268/1*8vORDj4bueEGkeC6ov8aGg.png',
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ export const trendingArticles = [
       'It never happens instantly. The business game is longer than you know. — It’s happening. OpenAI’s losing the AI race. Remember those days',
     bookmarked: false,
     image:
-      'https://miro.medium.com/v2/resize:fill:224:224/1*3FtLa-nHJB8KOb-Wu9bqbg.png',
+      'https://miro.medium.com/v2/resize:fill:400:268/1*8vORDj4bueEGkeC6ov8aGg.png',
   },
   {
     id: 3,
@@ -87,7 +87,7 @@ export const trendingArticles = [
       'It never happens instantly. The business game is longer than you know. — It’s happening. OpenAI’s losing the AI race. Remember those days',
     bookmarked: false,
     image:
-      'https://miro.medium.com/v2/resize:fill:224:224/1*3FtLa-nHJB8KOb-Wu9bqbg.png',
+      'https://miro.medium.com/v2/resize:fill:400:268/1*8vORDj4bueEGkeC6ov8aGg.png',
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const trendingArticles = [
       'It never happens instantly. The business game is longer than you know. — It’s happening. OpenAI’s losing the AI race. Remember those days',
     bookmarked: false,
     image:
-      'https://miro.medium.com/v2/resize:fill:224:224/1*3FtLa-nHJB8KOb-Wu9bqbg.png',
+      'https://miro.medium.com/v2/resize:fill:400:268/1*8vORDj4bueEGkeC6ov8aGg.png',
   },
   {
     id: 5,
@@ -113,7 +113,7 @@ export const trendingArticles = [
       'It never happens instantly. The business game is longer than you know. — It’s happening. OpenAI’s losing the AI race. Remember those days',
     bookmarked: false,
     image:
-      'https://miro.medium.com/v2/resize:fill:224:224/1*3FtLa-nHJB8KOb-Wu9bqbg.png',
+      'https://miro.medium.com/v2/resize:fill:400:268/1*8vORDj4bueEGkeC6ov8aGg.png',
   },
   {
     id: 6,
@@ -126,7 +126,59 @@ export const trendingArticles = [
       'It never happens instantly. The business game is longer than you know. — It’s happening. OpenAI’s losing the AI race. Remember those days',
     bookmarked: false,
     image:
-      'https://miro.medium.com/v2/resize:fill:224:224/1*3FtLa-nHJB8KOb-Wu9bqbg.png',
+      'https://miro.medium.com/v2/resize:fill:400:268/1*8vORDj4bueEGkeC6ov8aGg.png',
+  },
+  {
+    id: 5,
+    title: 'Master Customer Segmentation with LLM',
+    author: 'Damian Gil',
+    category: 'Towards Science',
+    date: 'Sep 21',
+    readTime: '8 min',
+    content:
+      'It never happens instantly. The business game is longer than you know. — It’s happening. OpenAI’s losing the AI race. Remember those days',
+    bookmarked: false,
+    image:
+      'https://miro.medium.com/v2/resize:fill:400:268/1*8vORDj4bueEGkeC6ov8aGg.png',
+  },
+  {
+    id: 7,
+    title: 'What Is a Woman (a response)',
+    author: 'Juliaano',
+    category: 'Towards Data Science',
+    date: 'Sep 21',
+    readTime: '8 min',
+    content:
+      'It never happens instantly. The business game is longer than you know. — It’s happening. OpenAI’s losing the AI race. Remember those days',
+    bookmarked: false,
+    image:
+      'https://miro.medium.com/v2/resize:fill:400:268/1*8vORDj4bueEGkeC6ov8aGg.png',
+  },
+  {
+    id: 8,
+    title: 'Master Customer Segmentation with LLM',
+    author: 'Damian Gil',
+    category: 'Towards Science',
+    date: 'Sep 21',
+    readTime: '8 min',
+    content:
+      'It never happens instantly. The business game is longer than you know. — It’s happening. OpenAI’s losing the AI race. Remember those days',
+    bookmarked: false,
+    image:
+      'https://miro.medium.com/v2/resize:fill:400:268/1*8vORDj4bueEGkeC6ov8aGg.png',
+  },
+  {
+    id: 9,
+    title: 'What Is a Woman (a response)',
+    author: 'Juliaano',
+    category: 'Towards Data Science',
+    date: 'Sep 21',
+    readTime: '8 min',
+    content:
+      'It never happens instantly. The business game is longer than you know. — It’s happening. OpenAI’s losing the AI race. Remember those days',
+    bookmarked: false,
+    image:
+      'https://miro.medium.com/v2/resize:fill:400:268/1*8vORDj4bueEGkeC6ov8aGg.png',
   },
 ];
 export const categories = [
